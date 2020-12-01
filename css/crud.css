@@ -1,0 +1,31 @@
+/** Corpo da página **/
+body{ margin: 0; padding: 0; z-index: 1; font-family: sans-serif; background: #2980b9;}
+/** Corpo da tabela **/
+.table{ position: absolute; z-index: 2; top: 50%; left: 50%; height: 10%;  transform: translate(-50%, -50%); text-align: center; background: #3498db; border-collapse: collapse; box-shadow: none; border-spacing: 0;}
+/** Titulo da tabela **/
+.table caption[class="title"]{ text-align: left; text-transform: uppercase; font-size: 40px; font-weight: 500; color: black;}
+/** Cabeçalho da tabela **/
+.table th{ text-transform: uppercase; text-align: left; background: #2b90d3; padding: 20px; border-spacing: 0px; border-bottom: 2px solid black; border-top: 2px solid black;}
+/** editando algumas bordas **/
+.table th[class="left"]{ border-left: 2px solid black;}
+.table th[class="right"]{ border-right: 2px solid black;}
+.table td[class="foot"]{ background: #2b90d3; border: 2px solid black;}
+/** Conteúdo da tabela **/
+.table td{ padding: 20px;}
+.table tr:nth-of-type(2),tr:nth-of-type(4){background-color: #2a90d4;}
+.table td[class="td-left"]{border-left: 2px solid black;} 
+.table td[class="td-right"]{border-right: 2px solid black; background: #2b90d3;}
+.table td[class="td-edit"]{ border-right: 2px solid black; border-left: 2px solid black; background: #2b90d3;}
+/** Ajuste dos botões **/
+.table a[class="add"]{margin-left: 50px;}
+.table a[class="pages"]{ font-size: 38px; text-decoration: none; color: black; letter-spacing: 15px; margin: top;}
+/** cabeçalho da página **/
+.header[class="header"]{background: #2b90d3; border-bottom: 2px solid black; height: 40px; width: 100%; top: 0; position: absolute; text-align: center;}
+.header button[class="home"]{background: none; border: none; cursor: pointer; padding-top: 5px; left: 0; position: absolute;}
+.header button[class="logout"]{background: none; border: none; cursor: pointer; padding-top: 5px; right: 0; position: absolute;}
+.header div[class="info"]{background: #3498db; height: 40px; width: 70%; right: 200px; top: 0; position: absolute; border-left: 2px solid black; border-right: 2px solid black;}
+.header div p{margin-top: 15px;}
+/** rodapé da página **/
+.footer[class="footer"]{background: #2b90d3; height: 40px; width: 100%; bottom: 0; position: absolute; text-align: center; border-top: 2px solid black;}
+.footer div[class="info2"]{background: #3498db; height: 40px; width: 70%; right: 200px; bottom: 0; position: absolute; border-left: 2px solid black; border-right: 2px solid black;}
+.footer div p{margin-top: 15px; font-weight: bold;}
